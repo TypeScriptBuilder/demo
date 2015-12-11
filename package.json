@@ -1,0 +1,27 @@
+{
+  "name": "tsb-demo",
+  "version": "1.0.0",
+  "description": "Online Demo for tsb",
+  "scripts": {
+    "postinstall": "cd ./node_modules/tsb && npm install",
+    "start": "tsb -d ./demo -p 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TypeScriptBuilder/tsb-demo.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Builder",
+    "JavaScript"
+  ],
+  "author": "basaratali@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TypeScriptBuilder/tsb-demo/issues"
+  },
+  "homepage": "https://github.com/TypeScriptBuilder/tsb-demo#readme",
+  "dependencies":{
+      "tsb":"https://github.com/TypeScriptBuilder/tsb.git"
+  }
+}
